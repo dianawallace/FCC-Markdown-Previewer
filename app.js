@@ -30,7 +30,7 @@ class App extends React.Component {
                         <textarea id='editor'/>
                     </div>
                     <div className='right'>
-                        <textarea id='preview'/>
+                        <div id='preview'>{marked(this.state.markdown)}</div>
                     </div>
                 </div>
             </div>
