@@ -12,14 +12,23 @@ const initialMarkdown = `
 `
 
 class App extends React.Component {
+    constructor(props) {
+        super(props)
+
+        this.state = {
+            markdown: initialMarkdown
+        }
+    }
+    
     render() {
         return (
             <div>
                 <div>Markdown Previewer</div>
                 <div className='container'>
                     <div className='left'>
-                    </div>
+                    
                         <textarea id='editor'/>
+                    </div>
                     <div className='right'>
                         <textarea id='preview'/>
                     </div>
