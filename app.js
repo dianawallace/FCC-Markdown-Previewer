@@ -1,3 +1,5 @@
+import './Style.css';
+
 const initialMarkdown = `
 ### Headers
 
@@ -19,7 +21,7 @@ class App extends React.Component {
             markdown: initialMarkdown
         }
     }
-    
+
     render() {
         return (
             <div>
