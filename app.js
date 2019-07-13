@@ -1,5 +1,3 @@
-import './Style.css';
-
 const initialMarkdown = `
 ### Headers
 
