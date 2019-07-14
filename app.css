@@ -19,3 +19,7 @@
     height: 100%;
     outline: none;
 }
+
+#preview {
+    padding: .5vw;
+}
