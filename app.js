@@ -20,6 +20,8 @@ class App extends React.Component {
         }
     }
 
+    handleChange = e => this.setState({ markdown: e.target.value})
+
     render() {
         return (
             <div>
@@ -27,7 +29,7 @@ class App extends React.Component {
                 <div className='container'>
                     <div className='left'>
                     
-                        <textarea id='editor'/>
+                        <textarea id='editor' value={this.state.markdown} onChange={this.handleChange}/>
                     </div>
                     <div className='right'>
                         <div id='preview' dangerouslySetInnerHTML={{__html: marked(this.state.markdown)}} />
