@@ -14,6 +14,20 @@ const initialMarkdown = `
 - list item two
 - list item three
 
+### Links
+
+[FreeCodeCamp](https://learn.freecodecamp.org) 
+
+[Google](https://www.google.com "World's Most Popular Search Engine")
+
+### Text Decoration
+
+*Italic*
+
+**bold**
+
+***bold and italic***
+
 `
 
 class App extends React.Component {
