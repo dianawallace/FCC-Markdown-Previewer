@@ -8,6 +8,11 @@ const initialMarkdown = `
 ##### Header 5
 ###### Header 6
 
+### List
+
+- list item one
+- list item two
+- list item three
 
 `
 
