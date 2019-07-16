@@ -28,6 +28,14 @@ const initialMarkdown = `
 
 ***bold and italic***
 
+### Images
+
+![alt text](https://comps.canstockphoto.ie/wolfillustration-drawings_csp15303793.jpg 'Beautiful Wolf Painting')
+
+### BlockQuote
+
+> In the midst of winter, I have found within me an infinite summer.
+
 `
 
 class App extends React.Component {
