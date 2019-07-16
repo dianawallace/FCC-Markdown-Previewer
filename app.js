@@ -36,6 +36,16 @@ const initialMarkdown = `
 
 > In the midst of winter, I have found within me an infinite summer.
 
+### Code 
+
+\`npm install create-react-app -g\`
+
+\`\`\` 
+function add(a, b) {
+  return a + b;
+}
+\`\`\`
+
 `
 
 class App extends React.Component {
