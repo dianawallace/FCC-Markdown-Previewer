@@ -12,6 +12,7 @@
     width: 95%;
     height: 85vh;
     border: 1px solid;
+    overflow: auto;
 }
 
 #editor {
