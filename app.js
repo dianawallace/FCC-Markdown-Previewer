@@ -45,9 +45,11 @@ function add(a, b) {
   return a + b;
 }
 \`\`\`
-
 `
 
+marked.setOptions({
+    breaks: true
+})
 class App extends React.Component {
     constructor(props) {
         super(props)
