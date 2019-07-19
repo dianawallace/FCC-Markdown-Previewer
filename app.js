@@ -48,6 +48,9 @@ function add(a, b) {
 `
 
 marked.setOptions({
+    highlight: function(code) {
+        return hljs.highlightAuto(code).value
+    },
     breaks: true
 })
 class App extends React.Component {
