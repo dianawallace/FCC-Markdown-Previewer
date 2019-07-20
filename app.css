@@ -29,6 +29,20 @@
     padding: .5vw;
 }
 
+code {
+    background-color: #ffe5e5;
+    color: #ff3232;
+    padding: .25vw .5vw;
+    border-radius: 3px;
+  }
+  
+  pre code {
+    display: inline-block;
+    background-color: #3a3a3a;
+    color: white;
+    padding: .25vw .5vw;
+  }
+
    /* highlightjs section */
    .hljs {
     display: block;
